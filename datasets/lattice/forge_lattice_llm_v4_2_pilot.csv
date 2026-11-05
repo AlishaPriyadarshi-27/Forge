@@ -1,0 +1,22 @@
+﻿O*NET-SOC Code,Task ID,Occupation Title,Capability Name,Capability Type,Capability ID,Task,DWA Element Name,Skill_Shadow,Skill_Shadow_Percent,Capability_Risk,Capability_Risk_Percent,Capability_Criticality,Market_Job_Count,Capability_Preservation_Pressure,Task_Preservation_Pressure,LATTICE_Priority,Capability_Rank,Task Capability Weight,Task_Evidence_Signal,Task_AI_Suitability,AI_Share,Human_Share,Human_Practice_Signal,AI_Transformation_Signal,Task_Practice_Relevance,Task_Rank,Work_Model,Human_Preservation_Floor,AI_Ceiling,Practice_Intent,LATTICE_Goal,Assessment_Focus,LLM_Task_Input,Semantic_Similarity_Recovered,Strong_Semantic_Evidence,Borderline_Semantic_Evidence,Strong_Task_Weight_Evidence,Strong_Practice_Evidence,Strong_Priority_Evidence,Borderline_Support_Count,Relevance_Decision,Relevance_Decision_Reason,lattice_record_id,llm_provider,llm_model,llm_status,llm_attempts,llm_error,quality_status,quality_problems,title,scenario,ai_input,human_task,expected_output,evidence,rubric,verification_signal,raw_llm_output
+15-2051.01,16143,Business Intelligence Analysts,Analyzing Data or Information,Work Activity,4.A.2.a.4,"Disseminate information regarding tools, reports, or metadata enhancements.",Report information to managers or other personnel.,0.30602061124698465,30.602061124698466,0.2283074419761296,22.830744197612958,0.7460524996856047,8074,0.374856641532884,0.8765817391156794,0.37071303815345213,1.0,3.525156,0.7624942950646632,0.5474034547805786,0.22363526274297035,0.7763647372570297,0.7763647372570297,0.22363526274297035,0.5210666592294924,1.0,Human-led,0.7285479004065423,0.22476200826664008,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Disseminate information regarding tools, reports, or metadata enhancements.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Business Intelligence Analysts
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Disseminate information regarding tools, reports, or metadata enhancements.
+Work Context / DWA: Report information to managers or other personnel.
+Skill Shadow: 0.3060
+Capability Risk: 0.2283
+Capability Criticality: 0.7461
+Capability Preservation Pressure: 0.3749
+Task Preservation Pressure: 0.8766
+AI Share: 0.2236
+Human Share: 0.7764
+AI Suitability: 0.5474
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.6516,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.652).,c815bc27c29f3c73,Groq,openai/gpt-oss-20b,rate_limited,1,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199648, Requested 1415. Please try again in 7m39.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,

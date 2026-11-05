@@ -1,0 +1,3081 @@
+record_id,system_instruction,user_instruction,source_occupation,source_task,target_capability,capability_type,semantic_similarity,skill_shadow,capability_risk,capability_criticality,capability_pressure,task_pressure,ai_share,human_share,task_practice_relevance,practice_intent,lattice_goal,assessment_focus,prompt_length
+3b48b1c6b41bb4ec,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Business Intelligence Analysts
+
+Source O*NET task:
+Disseminate information regarding tools, reports, or metadata enhancements.
+
+DWA / work activity context:
+Report information to managers or other personnel.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Disseminate information regarding tools, reports, or metadata enhancements.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6516
+
+Skill Shadow:
+0.30602061124698465
+
+Capability Risk:
+0.2283074419761296
+
+Capability Criticality:
+0.7460524996856047
+
+Capability Preservation Pressure:
+0.374856641532884
+
+Task Preservation Pressure:
+0.8765817391156794
+
+Current AI share:
+0.22363526274297035
+
+Current human share:
+0.7763647372570297
+
+Task Practice Relevance:
+0.5210666592294924
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Business Intelligence Analysts,"Disseminate information regarding tools, reports, or metadata enhancements.",Analyzing Data or Information,Work Activity,0.6516,0.30602061124698465,0.2283074419761296,0.7460524996856047,0.374856641532884,0.8765817391156794,0.22363526274297035,0.7763647372570297,0.5210666592294924,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Disseminate information regarding tools, reports, or metadata enhancements.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2762
+ca45dcb19f08d397,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Business Intelligence Analysts
+
+Source O*NET task:
+Collect business intelligence data from available industry reports, public information, field reports, or purchased sources.
+
+DWA / work activity context:
+Analyze market or customer related data.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Collect business intelligence data from available industry reports, public information, field reports, or purchased sources.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6459
+
+Skill Shadow:
+0.30602061124698465
+
+Capability Risk:
+0.2283074419761296
+
+Capability Criticality:
+0.7460524996856047
+
+Capability Preservation Pressure:
+0.374856641532884
+
+Task Preservation Pressure:
+0.8763837505306551
+
+Current AI share:
+0.24397803907427018
+
+Current human share:
+0.7560219609257298
+
+Task Practice Relevance:
+0.5187155064528695
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Business Intelligence Analysts,"Collect business intelligence data from available industry reports, public information, field reports, or purchased sources.",Analyzing Data or Information,Work Activity,0.6459,0.30602061124698465,0.2283074419761296,0.7460524996856047,0.374856641532884,0.8763837505306551,0.24397803907427018,0.7560219609257298,0.5187155064528695,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Collect business intelligence data from available industry reports, public information, field reports, or purchased sources.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2850
+6053f8248d19168b,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Business Intelligence Analysts
+
+Source O*NET task:
+Synthesize current business intelligence or trend data to support recommendations for action.
+
+DWA / work activity context:
+Analyze market or customer related data.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Synthesize current business intelligence or trend data to support recommendations for action.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6394
+
+Skill Shadow:
+0.30602061124698465
+
+Capability Risk:
+0.2283074419761296
+
+Capability Criticality:
+0.7460524996856047
+
+Capability Preservation Pressure:
+0.374856641532884
+
+Task Preservation Pressure:
+0.8764055558531587
+
+Current AI share:
+0.2449238194355893
+
+Current human share:
+0.7550761805644107
+
+Task Practice Relevance:
+0.5171469734452638
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Business Intelligence Analysts,Synthesize current business intelligence or trend data to support recommendations for action.,Analyzing Data or Information,Work Activity,0.6394,0.30602061124698465,0.2283074419761296,0.7460524996856047,0.374856641532884,0.8764055558531587,0.2449238194355893,0.7550761805644107,0.5171469734452638,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Synthesize current business intelligence or trend data to support recommendations for action.'.,"Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2787
+843a1c12285fe81c,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Clinical Data Managers
+
+Source O*NET task:
+Design forms for receiving, processing, or tracking data.
+
+DWA / work activity context:
+Develop procedures for data entry or processing.
+
+Target capability:
+Processing Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Design forms for receiving, processing, or tracking data.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.7425
+
+Skill Shadow:
+0.29835738055727434
+
+Capability Risk:
+0.22792438256982991
+
+Capability Criticality:
+0.7639307670020125
+
+Capability Preservation Pressure:
+0.36062106004025596
+
+Task Preservation Pressure:
+0.8300908501613051
+
+Current AI share:
+0.2499363307641484
+
+Current human share:
+0.7500636692358515
+
+Task Practice Relevance:
+0.5306171928867872
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Clinical Data Managers,"Design forms for receiving, processing, or tracking data.",Processing Information,Work Activity,0.7425,0.29835738055727434,0.22792438256982991,0.7639307670020125,0.36062106004025596,0.8300908501613051,0.2499363307641484,0.7500636692358515,0.5306171928867872,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Design forms for receiving, processing, or tracking data.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2697
+52f7a8ce81625692,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Clinical Data Managers
+
+Source O*NET task:
+Track the flow of work forms, including in-house data flow or electronic forms transfer.
+
+DWA / work activity context:
+Collect archival data.
+
+Target capability:
+Processing Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Track the flow of work forms, including in-house data flow or electronic forms transfer.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.7101
+
+Skill Shadow:
+0.29835738055727434
+
+Capability Risk:
+0.22792438256982991
+
+Capability Criticality:
+0.7639307670020125
+
+Capability Preservation Pressure:
+0.36062106004025596
+
+Task Preservation Pressure:
+0.830929820580024
+
+Current AI share:
+0.25156766920850626
+
+Current human share:
+0.7484323307914937
+
+Task Practice Relevance:
+0.5234013312459875
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Clinical Data Managers,"Track the flow of work forms, including in-house data flow or electronic forms transfer.",Processing Information,Work Activity,0.7101,0.29835738055727434,0.22792438256982991,0.7639307670020125,0.36062106004025596,0.830929820580024,0.25156766920850626,0.7484323307914937,0.5234013312459875,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Track the flow of work forms, including in-house data flow or electronic forms transfer.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2733
+80fc06fa1868d85e,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Clinical Data Managers
+
+Source O*NET task:
+Write work instruction manuals, data capture guidelines, or standard operating procedures.
+
+DWA / work activity context:
+Document operational procedures.
+
+Target capability:
+Processing Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Write work instruction manuals, data capture guidelines, or standard operating procedures.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6882
+
+Skill Shadow:
+0.29835738055727434
+
+Capability Risk:
+0.22792438256982991
+
+Capability Criticality:
+0.7639307670020125
+
+Capability Preservation Pressure:
+0.36062106004025596
+
+Task Preservation Pressure:
+0.8195117820858958
+
+Current AI share:
+0.24579518265954736
+
+Current human share:
+0.7542048173404526
+
+Task Practice Relevance:
+0.5188677008099497
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Clinical Data Managers,"Write work instruction manuals, data capture guidelines, or standard operating procedures.",Processing Information,Work Activity,0.6882,0.29835738055727434,0.22792438256982991,0.7639307670020125,0.36062106004025596,0.8195117820858958,0.24579518265954736,0.7542048173404526,0.5188677008099497,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Write work instruction manuals, data capture guidelines, or standard operating procedures.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2748
+d973718e4216bbe2,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Business Intelligence Analysts
+
+Source O*NET task:
+Disseminate information regarding tools, reports, or metadata enhancements.
+
+DWA / work activity context:
+Report information to managers or other personnel.
+
+Target capability:
+Processing Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Disseminate information regarding tools, reports, or metadata enhancements.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6718
+
+Skill Shadow:
+0.3076083112857154
+
+Capability Risk:
+0.22636627889069097
+
+Capability Criticality:
+0.7358912961244258
+
+Capability Preservation Pressure:
+0.3601106271326748
+
+Task Preservation Pressure:
+0.8765817391156794
+
+Current AI share:
+0.22363526274297035
+
+Current human share:
+0.7763647372570297
+
+Task Practice Relevance:
+0.5186179671318495
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Business Intelligence Analysts,"Disseminate information regarding tools, reports, or metadata enhancements.",Processing Information,Work Activity,0.6718,0.3076083112857154,0.22636627889069097,0.7358912961244258,0.3601106271326748,0.8765817391156794,0.22363526274297035,0.7763647372570297,0.5186179671318495,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Disseminate information regarding tools, reports, or metadata enhancements.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2742
+14e12d8e8e1b1bed,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Business Intelligence Analysts
+
+Source O*NET task:
+Document specifications for business intelligence or information technology reports, dashboards, or other outputs.
+
+DWA / work activity context:
+Develop information communication procedures.
+
+Target capability:
+Processing Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Document specifications for business intelligence or information technology reports, dashboards, or other outputs.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.649
+
+Skill Shadow:
+0.3076083112857154
+
+Capability Risk:
+0.22636627889069097
+
+Capability Criticality:
+0.7358912961244258
+
+Capability Preservation Pressure:
+0.3601106271326748
+
+Task Preservation Pressure:
+0.8752207845363704
+
+Current AI share:
+0.24389504431243236
+
+Current human share:
+0.7561049556875676
+
+Task Practice Relevance:
+0.5124908469015094
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Business Intelligence Analysts,"Document specifications for business intelligence or information technology reports, dashboards, or other outputs.",Processing Information,Work Activity,0.649,0.3076083112857154,0.22636627889069097,0.7358912961244258,0.3601106271326748,0.8752207845363704,0.24389504431243236,0.7561049556875676,0.5124908469015094,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Document specifications for business intelligence or information technology reports, dashboards, or other outputs.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2814
+e483ad1fd7dc96ef,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Business Intelligence Analysts
+
+Source O*NET task:
+Manage timely flow of business intelligence information to users.
+
+DWA / work activity context:
+Develop information communication procedures.
+
+Target capability:
+Processing Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Manage timely flow of business intelligence information to users.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6051
+
+Skill Shadow:
+0.3076083112857154
+
+Capability Risk:
+0.22636627889069097
+
+Capability Criticality:
+0.7358912961244258
+
+Capability Preservation Pressure:
+0.3601106271326748
+
+Task Preservation Pressure:
+0.8745809032321368
+
+Current AI share:
+0.23963415543602506
+
+Current human share:
+0.7603658445639749
+
+Task Practice Relevance:
+0.5028569458380069
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Business Intelligence Analysts,Manage timely flow of business intelligence information to users.,Processing Information,Work Activity,0.6051,0.3076083112857154,0.22636627889069097,0.7358912961244258,0.3601106271326748,0.8745809032321368,0.23963415543602506,0.7603658445639749,0.5028569458380069,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Manage timely flow of business intelligence information to users.'.,"Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2717
+56f8642781542102,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Clinical Data Managers
+
+Source O*NET task:
+Track the flow of work forms, including in-house data flow or electronic forms transfer.
+
+DWA / work activity context:
+Collect archival data.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Track the flow of work forms, including in-house data flow or electronic forms transfer.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.702
+
+Skill Shadow:
+0.299765143041024
+
+Capability Risk:
+0.22382661111448207
+
+Capability Criticality:
+0.7466732417379514
+
+Capability Preservation Pressure:
+0.3707905428895594
+
+Task Preservation Pressure:
+0.830929820580024
+
+Current AI share:
+0.25156766920850626
+
+Current human share:
+0.7484323307914937
+
+Task Practice Relevance:
+0.5038267567842396
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Clinical Data Managers,"Track the flow of work forms, including in-house data flow or electronic forms transfer.",Analyzing Data or Information,Work Activity,0.702,0.299765143041024,0.22382661111448207,0.7466732417379514,0.3707905428895594,0.830929820580024,0.25156766920850626,0.7484323307914937,0.5038267567842396,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Track the flow of work forms, including in-house data flow or electronic forms transfer.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2750
+bd40b6f2883da01a,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Clinical Data Managers
+
+Source O*NET task:
+Prepare data analysis listings and activity, performance, or progress reports.
+
+DWA / work activity context:
+Prepare analytical reports.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Prepare data analysis listings and activity, performance, or progress reports.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6705
+
+Skill Shadow:
+0.299765143041024
+
+Capability Risk:
+0.22382661111448207
+
+Capability Criticality:
+0.7466732417379514
+
+Capability Preservation Pressure:
+0.3707905428895594
+
+Task Preservation Pressure:
+0.8327673789754062
+
+Current AI share:
+0.25665476216655675
+
+Current human share:
+0.7433452378334433
+
+Task Practice Relevance:
+0.497372137816679
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Clinical Data Managers,"Prepare data analysis listings and activity, performance, or progress reports.",Analyzing Data or Information,Work Activity,0.6705,0.299765143041024,0.22382661111448207,0.7466732417379514,0.3707905428895594,0.8327673789754062,0.25665476216655675,0.7433452378334433,0.497372137816679,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Prepare data analysis listings and activity, performance, or progress reports.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2736
+2b8c34318ae3a68d,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Clinical Data Managers
+
+Source O*NET task:
+Analyze clinical data using appropriate statistical tools.
+
+DWA / work activity context:
+Analyze health-related data.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Analyze clinical data using appropriate statistical tools.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6545
+
+Skill Shadow:
+0.299765143041024
+
+Capability Risk:
+0.22382661111448207
+
+Capability Criticality:
+0.7466732417379514
+
+Capability Preservation Pressure:
+0.3707905428895594
+
+Task Preservation Pressure:
+0.827572946394809
+
+Current AI share:
+0.252451586906587
+
+Current human share:
+0.747548413093413
+
+Task Practice Relevance:
+0.49443295597286707
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Clinical Data Managers,Analyze clinical data using appropriate statistical tools.,Analyzing Data or Information,Work Activity,0.6545,0.299765143041024,0.22382661111448207,0.7466732417379514,0.3707905428895594,0.827572946394809,0.252451586906587,0.747548413093413,0.49443295597286707,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Analyze clinical data using appropriate statistical tools.'.,"Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2695
+8e94a53a3c0fd977,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Geological Technicians, Except Hydrologic Technicians
+
+Source O*NET task:
+Compile, log, or record testing or operational data for review and further analysis.
+
+DWA / work activity context:
+Record research or operational data.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Compile, log, or record testing or operational data for review and further analysis.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.689
+
+Skill Shadow:
+0.2843177090140169
+
+Capability Risk:
+0.21917632276819046
+
+Capability Criticality:
+0.7708852309209662
+
+Capability Preservation Pressure:
+0.36607590945097096
+
+Task Preservation Pressure:
+0.6665604627533463
+
+Current AI share:
+0.28029766577628273
+
+Current human share:
+0.7197023342237172
+
+Task Practice Relevance:
+0.47761932550099445
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}","Geological Technicians, Except Hydrologic Technicians","Compile, log, or record testing or operational data for review and further analysis.",Analyzing Data or Information,Work Activity,0.689,0.2843177090140169,0.21917632276819046,0.7708852309209662,0.36607590945097096,0.6665604627533463,0.28029766577628273,0.7197023342237172,0.47761932550099445,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Compile, log, or record testing or operational data for review and further analysis.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2791
+ff79814d54b535c4,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Geological Technicians, Except Hydrologic Technicians
+
+Source O*NET task:
+Plan and direct activities of workers who operate equipment to collect data.
+
+DWA / work activity context:
+Supervise scientific or technical personnel.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Plan and direct activities of workers who operate equipment to collect data.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.6757
+
+Skill Shadow:
+0.2843177090140169
+
+Capability Risk:
+0.21917632276819046
+
+Capability Criticality:
+0.7708852309209662
+
+Capability Preservation Pressure:
+0.36607590945097096
+
+Task Preservation Pressure:
+0.6352342642061317
+
+Current AI share:
+0.277126334075699
+
+Current human share:
+0.722873665924301
+
+Task Practice Relevance:
+0.47555987811731376
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}","Geological Technicians, Except Hydrologic Technicians",Plan and direct activities of workers who operate equipment to collect data.,Analyzing Data or Information,Work Activity,0.6757,0.2843177090140169,0.21917632276819046,0.7708852309209662,0.36607590945097096,0.6352342642061317,0.277126334075699,0.722873665924301,0.47555987811731376,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Plan and direct activities of workers who operate equipment to collect data.'.,"Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2781
+b34ae059033bd919,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Geological Technicians, Except Hydrologic Technicians
+
+Source O*NET task:
+Interview individuals, and research public databases in order to obtain information.
+
+DWA / work activity context:
+Collect archival data.
+
+Target capability:
+Analyzing Data or Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Interview individuals, and research public databases in order to obtain information.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.7234
+
+Skill Shadow:
+0.2843177090140169
+
+Capability Risk:
+0.21917632276819046
+
+Capability Criticality:
+0.7708852309209662
+
+Capability Preservation Pressure:
+0.36607590945097096
+
+Task Preservation Pressure:
+0.6569396829592901
+
+Current AI share:
+0.2861672127551735
+
+Current human share:
+0.7138327872448265
+
+Task Practice Relevance:
+0.4725396074827285
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}","Geological Technicians, Except Hydrologic Technicians","Interview individuals, and research public databases in order to obtain information.",Analyzing Data or Information,Work Activity,0.7234,0.2843177090140169,0.21917632276819046,0.7708852309209662,0.36607590945097096,0.6569396829592901,0.2861672127551735,0.7138327872448265,0.4725396074827285,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Interview individuals, and research public databases in order to obtain information.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2776
+c63add3a62d8a21d,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Nurse Practitioners
+
+Source O*NET task:
+Provide patients or caregivers with assistance in locating health care resources.
+
+DWA / work activity context:
+Advise patients on healthcare system processes.
+
+Target capability:
+Assisting and Caring for Others
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Assisting and Caring for Others' using the real work context represented by the source task: 'Provide patients or caregivers with assistance in locating health care resources.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Assisting and Caring for Others' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.5883
+
+Skill Shadow:
+0.2753673905958335
+
+Capability Risk:
+0.21848219524251014
+
+Capability Criticality:
+0.7934207270140575
+
+Capability Preservation Pressure:
+0.39444441754255105
+
+Task Preservation Pressure:
+0.7623343242662741
+
+Current AI share:
+0.2185976309532201
+
+Current human share:
+0.78140236904678
+
+Task Practice Relevance:
+0.5029147769307182
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Nurse Practitioners,Provide patients or caregivers with assistance in locating health care resources.,Assisting and Caring for Others,Work Activity,0.5883,0.2753673905958335,0.21848219524251014,0.7934207270140575,0.39444441754255105,0.7623343242662741,0.2185976309532201,0.78140236904678,0.5029147769307182,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Assisting and Caring for Others' using the real work context represented by the source task: 'Provide patients or caregivers with assistance in locating health care resources.'.,"Assess whether the participant can demonstrate 'Assisting and Caring for Others' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2765
+b5851845e1845803,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Nurse Practitioners
+
+Source O*NET task:
+Recommend interventions to modify behavior associated with health risks.
+
+DWA / work activity context:
+Provide health and wellness advice to patients, program participants, or caregivers.
+
+Target capability:
+Assisting and Caring for Others
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Assisting and Caring for Others' using the real work context represented by the source task: 'Recommend interventions to modify behavior associated with health risks.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Assisting and Caring for Others' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.5863
+
+Skill Shadow:
+0.2753673905958335
+
+Capability Risk:
+0.21848219524251014
+
+Capability Criticality:
+0.7934207270140575
+
+Capability Preservation Pressure:
+0.39444441754255105
+
+Task Preservation Pressure:
+0.7182208253269611
+
+Current AI share:
+0.21734209479398384
+
+Current human share:
+0.7826579052060162
+
+Task Practice Relevance:
+0.5025112090719023
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Nurse Practitioners,Recommend interventions to modify behavior associated with health risks.,Assisting and Caring for Others,Work Activity,0.5863,0.2753673905958335,0.21848219524251014,0.7934207270140575,0.39444441754255105,0.7182208253269611,0.21734209479398384,0.7826579052060162,0.5025112090719023,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Assisting and Caring for Others' using the real work context represented by the source task: 'Recommend interventions to modify behavior associated with health risks.'.,"Assess whether the participant can demonstrate 'Assisting and Caring for Others' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2787
+79c7d3e080f18668,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Nurse Practitioners
+
+Source O*NET task:
+Advocate for accessible health care that minimizes environmental health risks.
+
+DWA / work activity context:
+Advocate for individual or community needs.
+
+Target capability:
+Assisting and Caring for Others
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Assisting and Caring for Others' using the real work context represented by the source task: 'Advocate for accessible health care that minimizes environmental health risks.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Assisting and Caring for Others' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.5835
+
+Skill Shadow:
+0.2753673905958335
+
+Capability Risk:
+0.21848219524251014
+
+Capability Criticality:
+0.7934207270140575
+
+Capability Preservation Pressure:
+0.39444441754255105
+
+Task Preservation Pressure:
+0.6876276222758575
+
+Current AI share:
+0.21663270369622714
+
+Current human share:
+0.7833672963037729
+
+Task Practice Relevance:
+0.5018937960933014
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Nurse Practitioners,Advocate for accessible health care that minimizes environmental health risks.,Assisting and Caring for Others,Work Activity,0.5835,0.2753673905958335,0.21848219524251014,0.7934207270140575,0.39444441754255105,0.6876276222758575,0.21663270369622714,0.7833672963037729,0.5018937960933014,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Assisting and Caring for Others' using the real work context represented by the source task: 'Advocate for accessible health care that minimizes environmental health risks.'.,"Assess whether the participant can demonstrate 'Assisting and Caring for Others' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2758
+492316c8c4281a05,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Nurse Practitioners
+
+Source O*NET task:
+Analyze and interpret patients' histories, symptoms, physical findings, or diagnostic information to develop appropriate diagnoses.
+
+DWA / work activity context:
+Analyze test data or images to inform diagnosis or treatment.
+
+Target capability:
+Processing Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Analyze and interpret patients' histories, symptoms, physical findings, or diagnostic information to develop appropriate diagnoses.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.5904
+
+Skill Shadow:
+0.2900912442343211
+
+Capability Risk:
+0.21724751556519706
+
+Capability Criticality:
+0.7488937356196641
+
+Capability Preservation Pressure:
+0.3514426838861849
+
+Task Preservation Pressure:
+0.766812861446965
+
+Current AI share:
+0.2602079491813769
+
+Current human share:
+0.7397920508186231
+
+Task Practice Relevance:
+0.48469106264253226
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Nurse Practitioners,"Analyze and interpret patients' histories, symptoms, physical findings, or diagnostic information to develop appropriate diagnoses.",Processing Information,Work Activity,0.5904,0.2900912442343211,0.21724751556519706,0.7488937356196641,0.3514426838861849,0.766812861446965,0.2602079491813769,0.7397920508186231,0.48469106264253226,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Analyze and interpret patients' histories, symptoms, physical findings, or diagnostic information to develop appropriate diagnoses.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2853
+5508e507a1817f4b,"You are the LATTICE apprenticeship-generation component
+inside FORGE, a workforce intelligence system.
+
+Your job is NOT to decide whether AI should replace a human.
+
+That decision has already been computed by the FORGE workforce
+allocation layer.
+
+Your job is to create a realistic synthetic apprenticeship
+activity that preserves and practices a human capability that
+may lose exposure when work becomes more automated.
+
+GROUNDING RULES:
+
+1. Stay grounded in the supplied occupation.
+2. Stay grounded in the supplied source task.
+3. Stay grounded in the target capability.
+4. Do not invent unrelated responsibilities.
+5. Do not claim that the source task is officially mapped to
+   the capability. Treat the capability relationship as a
+   FORGE semantic inference.
+6. The exercise must require genuine human reasoning or action.
+7. The exercise must not simply ask the user to repeat the
+   source task.
+8. The exercise should simulate a realistic workplace situation.
+9. Include observable outputs so performance can be assessed.
+10. Generate a fixed rubric that can be reused across attempts.
+11. Do not assign an overall capability score without a human
+    attempt. This stage only creates the exercise and rubric.
+12. Return valid JSON only.","Create one synthetic apprenticeship exercise.
+
+SOURCE CONTEXT
+
+Occupation:
+Nurse Practitioners
+
+Source O*NET task:
+Keep abreast of regulatory processes and payer systems, such as Medicare, Medicaid, managed care, and private sources.
+
+DWA / work activity context:
+Maintain medical or professional knowledge.
+
+Target capability:
+Processing Information
+
+Capability type:
+Work Activity
+
+FORGE practice intent:
+Capability preservation
+
+FORGE LATTICE goal:
+Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Keep abreast of regulatory processes and payer systems, such as Medicare, Medicaid, managed care, and private sources.'.
+
+Assessment focus:
+Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.
+
+
+FORGE EVIDENCE
+
+Semantic task-capability similarity:
+0.5778
+
+Skill Shadow:
+0.2900912442343211
+
+Capability Risk:
+0.21724751556519706
+
+Capability Criticality:
+0.7488937356196641
+
+Capability Preservation Pressure:
+0.3514426838861849
+
+Task Preservation Pressure:
+0.7412335378687583
+
+Current AI share:
+0.2608179801755408
+
+Current human share:
+0.7391820198244592
+
+Task Practice Relevance:
+0.4820632635558421
+
+
+GENERATION REQUIREMENTS
+
+Create a realistic workplace scenario where the human must
+practice the target capability.
+
+The scenario should contain:
+
+- situation
+- task to perform
+- relevant constraints
+- expected observable output
+- what the learner should reason about
+- what evidence should be captured from the attempt
+
+The exercise should be challenging enough that an AI-generated
+answer cannot automatically prove human capability.
+
+Create a fixed 4-dimension rubric.
+
+Each rubric dimension must contain:
+
+- criterion
+- what good performance looks like
+- maximum score
+
+Use a 0–5 scale for each dimension.
+
+Do NOT score the learner now.
+
+Return exactly this JSON structure:
+
+{
+  ""title"": ""..."",
+  ""scenario"": ""..."",
+  ""task_instruction"": ""..."",
+  ""constraints"": [""..."", ""...""],
+  ""expected_output"": ""..."",
+  ""reasoning_focus"": [""..."", ""...""],
+  ""observable_evidence"": [""..."", ""...""],
+  ""rubric"": [
+    {
+      ""dimension"": ""accuracy"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""reasoning"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""decision_quality"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    },
+    {
+      ""dimension"": ""communication"",
+      ""criterion"": ""..."",
+      ""good_performance"": ""..."",
+      ""max_score"": 5
+    }
+  ]
+}",Nurse Practitioners,"Keep abreast of regulatory processes and payer systems, such as Medicare, Medicaid, managed care, and private sources.",Processing Information,Work Activity,0.5778,0.2900912442343211,0.21724751556519706,0.7488937356196641,0.3514426838861849,0.7412335378687583,0.2608179801755408,0.7391820198244592,0.4820632635558421,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Keep abreast of regulatory processes and payer systems, such as Medicare, Medicaid, managed care, and private sources.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.",2809

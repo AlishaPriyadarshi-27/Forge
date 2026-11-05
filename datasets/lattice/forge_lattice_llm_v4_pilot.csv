@@ -1,0 +1,421 @@
+﻿O*NET-SOC Code,Task ID,Occupation Title,Capability Name,Capability Type,Capability ID,Task,DWA Element Name,Skill_Shadow,Skill_Shadow_Percent,Capability_Risk,Capability_Risk_Percent,Capability_Criticality,Market_Job_Count,Capability_Preservation_Pressure,Task_Preservation_Pressure,LATTICE_Priority,Capability_Rank,Task Capability Weight,Task_Evidence_Signal,Task_AI_Suitability,AI_Share,Human_Share,Human_Practice_Signal,AI_Transformation_Signal,Task_Practice_Relevance,Task_Rank,Work_Model,Human_Preservation_Floor,AI_Ceiling,Practice_Intent,LATTICE_Goal,Assessment_Focus,LLM_Task_Input,Semantic_Similarity_Recovered,Strong_Semantic_Evidence,Borderline_Semantic_Evidence,Strong_Task_Weight_Evidence,Strong_Practice_Evidence,Strong_Priority_Evidence,Borderline_Support_Count,Relevance_Decision,Relevance_Decision_Reason,lattice_record_id,llm_provider,llm_model,llm_status,llm_attempts,llm_error,quality_status,quality_problems,title,scenario,ai_input,human_task,expected_output,evidence,rubric,verification_signal,raw_llm_output
+15-2051.01,16143,Business Intelligence Analysts,Analyzing Data or Information,Work Activity,4.A.2.a.4,"Disseminate information regarding tools, reports, or metadata enhancements.",Report information to managers or other personnel.,0.30602061124698465,30.602061124698466,0.2283074419761296,22.830744197612958,0.7460524996856047,8074,0.374856641532884,0.8765817391156794,0.37071303815345213,1.0,3.525156,0.7624942950646632,0.5474034547805786,0.22363526274297035,0.7763647372570297,0.7763647372570297,0.22363526274297035,0.5210666592294924,1.0,Human-led,0.7285479004065423,0.22476200826664008,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Disseminate information regarding tools, reports, or metadata enhancements.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Business Intelligence Analysts
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Disseminate information regarding tools, reports, or metadata enhancements.
+Work Context / DWA: Report information to managers or other personnel.
+Skill Shadow: 0.3060
+Capability Risk: 0.2283
+Capability Criticality: 0.7461
+Capability Preservation Pressure: 0.3749
+Task Preservation Pressure: 0.8766
+AI Share: 0.2236
+Human Share: 0.7764
+AI Suitability: 0.5474
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.6516,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.652).,c815bc27c29f3c73,Groq,openai/gpt-oss-20b,error,3,No valid JSON object found.,NOT_CHECKED,not_generated,,,,,,[],{},,
+15-2051.02,16286,Clinical Data Managers,Processing Information,Work Activity,4.A.2.a.2,"Design forms for receiving, processing, or tracking data.",Develop procedures for data entry or processing.,0.29835738055727434,29.835738055727433,0.22792438256982991,22.79243825698299,0.7639307670020125,6174,0.36062106004025596,0.8300908501613051,0.37034215844998863,1.0,3.779325,0.8174712698374932,0.58046555519104,0.2499363307641484,0.7500636692358515,0.7500636692358515,0.2499363307641484,0.5306171928867872,1.0,Human-led,0.683865362547658,0.2499363307641484,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Design forms for receiving, processing, or tracking data.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Clinical Data Managers
+Target Capability: Processing Information
+Capability Type: Work Activity
+Original Work Task: Design forms for receiving, processing, or tracking data.
+Work Context / DWA: Develop procedures for data entry or processing.
+Skill Shadow: 0.2984
+Capability Risk: 0.2279
+Capability Criticality: 0.7639
+Capability Preservation Pressure: 0.3606
+Task Preservation Pressure: 0.8301
+AI Share: 0.2499
+Human Share: 0.7501
+AI Suitability: 0.5805
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.7425,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.743).,301fb333e3347ab4,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199846, Requested 1829. Please try again in 12m3.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+19-4043.00,22264,"Geological Technicians, Except Hydrologic Technicians",Analyzing Data or Information,Work Activity,4.A.2.a.4,"Compile, log, or record testing or operational data for review and further analysis.",Record research or operational data.,0.2843177090140169,28.431770901401688,0.21917632276819046,21.917632276819045,0.7708852309209662,8074,0.36607590945097096,0.6665604627533463,0.36208879752165885,1.0,2.6560949999999997,0.57451564828614,0.5376572012901306,0.28029766577628273,0.7197023342237172,0.7197023342237172,0.28029766577628273,0.47761932550099445,1.0,Hybrid,0.5318251044341206,0.28029766577628273,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Compile, log, or record testing or operational data for review and further analysis.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Geological Technicians, Except Hydrologic Technicians
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Compile, log, or record testing or operational data for review and further analysis.
+Work Context / DWA: Record research or operational data.
+Skill Shadow: 0.2843
+Capability Risk: 0.2192
+Capability Criticality: 0.7709
+Capability Preservation Pressure: 0.3661
+Task Preservation Pressure: 0.6666
+AI Share: 0.2803
+Human Share: 0.7197
+AI Suitability: 0.5377
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.689,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.689).,1fc7554ce2d682eb,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199835, Requested 1859. Please try again in 12m11.808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+29-1171.00,18398,Nurse Practitioners,Assisting and Caring for Others,Work Activity,4.A.4.a.5,Provide patients or caregivers with assistance in locating health care resources.,Advise patients on healthcare system processes.,0.2753673905958335,27.536739059583347,0.21848219524251014,21.848219524251014,0.7934207270140575,12232,0.39444441754255105,0.7623343242662741,0.3619124992734813,1.0,3.170937,0.6858764186633038,0.46394702792167664,0.2185976309532201,0.78140236904678,0.78140236904678,0.2185976309532201,0.5029147769307182,1.0,Human-led,0.619864797581773,0.22465886000446858,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Assisting and Caring for Others' using the real work context represented by the source task: 'Provide patients or caregivers with assistance in locating health care resources.'.,"Assess whether the participant can demonstrate 'Assisting and Caring for Others' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Nurse Practitioners
+Target Capability: Assisting and Caring for Others
+Capability Type: Work Activity
+Original Work Task: Provide patients or caregivers with assistance in locating health care resources.
+Work Context / DWA: Advise patients on healthcare system processes.
+Skill Shadow: 0.2754
+Capability Risk: 0.2185
+Capability Criticality: 0.7934
+Capability Preservation Pressure: 0.3944
+Task Preservation Pressure: 0.7623
+AI Share: 0.2186
+Human Share: 0.7814
+AI Suitability: 0.4639
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.5883,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.588).,8dd79152f80c456c,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199824, Requested 1844. Please try again in 12m0.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+47-2231.00,17763,Solar Photovoltaic Installers,Updating and Using Relevant Knowledge,Work Activity,4.A.2.b.3,"Compile or maintain records of system operation, performance, and maintenance.",Record operational or environmental data.,0.3386111259460449,33.86111259460449,0.20850862029361059,20.850862029361057,0.615776046079581,5103,0.3431598979045851,0.7331027975494318,0.35501335827702185,1.0,1.8383820000000002,0.39764361836740436,0.5417042374610901,0.2632801680512604,0.7367198319487396,0.7367198319487396,0.2632801680512604,0.4406193906678755,1.0,Hybrid,0.5926828323459642,0.2632801680512604,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Updating and Using Relevant Knowledge' using the real work context represented by the source task: 'Compile or maintain records of system operation, performance, and maintenance.'.","Assess whether the participant can demonstrate 'Updating and Using Relevant Knowledge' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Solar Photovoltaic Installers
+Target Capability: Updating and Using Relevant Knowledge
+Capability Type: Work Activity
+Original Work Task: Compile or maintain records of system operation, performance, and maintenance.
+Work Context / DWA: Record operational or environmental data.
+Skill Shadow: 0.3386
+Capability Risk: 0.2085
+Capability Criticality: 0.6158
+Capability Preservation Pressure: 0.3432
+Task Preservation Pressure: 0.7331
+AI Share: 0.2633
+Human Share: 0.7367
+AI Suitability: 0.5417
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.5439,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.544).,08be7e439c3f0372,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199813, Requested 1847. Please try again in 11m57.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+13-1081.02,15898,Logistics Analysts,Processing Information,Work Activity,4.A.2.a.2,Maintain databases of logistics information.,Maintain data in information systems or databases.,0.28878531190831,28.878531190831,0.2109965101981385,21.09965101981385,0.7306344938524102,6174,0.3462408264642743,0.7412659037852534,0.35381850778407864,1.0,2.9682449999999996,0.6420339635619561,0.5343574285507202,0.2580409986550569,0.7419590013449431,0.7419590013449431,0.2580409986550569,0.4893412205040659,1.0,Hybrid,0.6002467894851236,0.2580409986550569,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Maintain databases of logistics information.'.,"Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Logistics Analysts
+Target Capability: Processing Information
+Capability Type: Work Activity
+Original Work Task: Maintain databases of logistics information.
+Work Context / DWA: Maintain data in information systems or databases.
+Skill Shadow: 0.2888
+Capability Risk: 0.2110
+Capability Criticality: 0.7306
+Capability Preservation Pressure: 0.3462
+Task Preservation Pressure: 0.7413
+AI Share: 0.2580
+Human Share: 0.7420
+AI Suitability: 0.5344
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.6282,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.628).,0f5050c2c62cbab0,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199802, Requested 1823. Please try again in 11m42s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-1299.01,14748,Web Administrators,Working with Computers,Work Activity,4.A.3.b.1,"Identify, standardize, and communicate levels of access and security.",Develop computer or information security policies or procedures.,0.28426693710451634,28.426693710451634,0.21039044267906543,21.039044267906544,0.7401157687280081,7862,0.3573118590565093,0.6784572767013266,0.35327375510157943,1.0,3.29909,0.7135960235248822,0.5135120749473572,0.2666556731065832,0.7333443268934168,0.7333443268934168,0.2666556731065832,0.5030322353352001,1.0,Hybrid,0.5425985373598706,0.2666556731065832,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Working with Computers' using the real work context represented by the source task: 'Identify, standardize, and communicate levels of access and security.'.","Assess whether the participant can demonstrate 'Working with Computers' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Web Administrators
+Target Capability: Working with Computers
+Capability Type: Work Activity
+Original Work Task: Identify, standardize, and communicate levels of access and security.
+Work Context / DWA: Develop computer or information security policies or procedures.
+Skill Shadow: 0.2843
+Capability Risk: 0.2104
+Capability Criticality: 0.7401
+Capability Preservation Pressure: 0.3573
+Task Preservation Pressure: 0.6785
+AI Share: 0.2667
+Human Share: 0.7333
+AI Suitability: 0.5135
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.6406,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.641).,613473d9264e5bae,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199792, Requested 1838. Please try again in 11m44.16s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-1243.00,16108,Database Architects,Analyzing Data or Information,Work Activity,4.A.2.a.4,"Develop data models for applications, metadata tables, views or related database structures.",Design computer modeling or simulation programs.,0.3133761920089172,31.33761920089172,0.20891482429661204,20.891482429661203,0.6666582517240727,8074,0.3604397303776686,0.8054541719258154,0.3526941936382567,1.0,3.2966699999999998,0.7130725754295194,0.6054596900939941,0.26659573946901827,0.7334042605309817,0.7334042605309817,0.26659573946901827,0.5027276958858429,1.0,Hybrid,0.6604372555486039,0.26659573946901827,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Develop data models for applications, metadata tables, views or related database structures.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Database Architects
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Develop data models for applications, metadata tables, views or related database structures.
+Work Context / DWA: Design computer modeling or simulation programs.
+Skill Shadow: 0.3134
+Capability Risk: 0.2089
+Capability Criticality: 0.6667
+Capability Preservation Pressure: 0.3604
+Task Preservation Pressure: 0.8055
+AI Share: 0.2666
+Human Share: 0.7334
+AI Suitability: 0.6055
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.676,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.676).,c1e2aa26b6db81eb,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199781, Requested 1210. Please try again in 7m8.112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-2051.00,21832,Data Scientists,Analyzing Data or Information,Work Activity,4.A.2.a.4,Identify relationships and trends or any factors that could affect the results of research.,Analyze data to identify trends or relationships among variables.,0.28132362619706097,28.132362619706097,0.2094522233180137,20.945222331801368,0.7445241132051136,8074,0.3578571746909099,0.6972106579572441,0.3524023027349573,1.0,4.3266405,0.9358560863819138,0.5693066716194153,0.2845044553254651,0.7154955446745349,0.7154955446745349,0.2845044553254651,0.5462868004673446,1.0,Hybrid,0.5596769681998677,0.28496238048134714,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Identify relationships and trends or any factors that could affect the results of research.'.,"Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Data Scientists
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Identify relationships and trends or any factors that could affect the results of research.
+Work Context / DWA: Analyze data to identify trends or relationships among variables.
+Skill Shadow: 0.2813
+Capability Risk: 0.2095
+Capability Criticality: 0.7445
+Capability Preservation Pressure: 0.3579
+Task Preservation Pressure: 0.6972
+AI Share: 0.2845
+Human Share: 0.7155
+AI Suitability: 0.5693
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.7651,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.765).,2c37886b45f2ea3c,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199770, Requested 1849. Please try again in 11m39.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-1221.00,14634,Computer and Information Research Scientists,Operations Monitoring,Transferable Skill,2.B.3.g,"Maintain network hardware and software, direct network security measures, and monitor networks to ensure availability to system users.",Monitor the performance of computer networks.,0.3461626768112184,34.61626768112184,0.20301555586925293,20.301555586925293,0.5864744221976551,14228,0.4046490346554724,0.6864623824865934,0.3512808896059161,1.0,1.3433055,0.29055814275424546,0.5465573072433472,0.2784885595646154,0.7215114404353846,0.7215114404353846,0.2784885595646154,0.41713551193468895,1.0,Hybrid,0.5498744232937632,0.2784885595646154,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Operations Monitoring' using the real work context represented by the source task: 'Maintain network hardware and software, direct network security measures, and monitor networks to ensure availability to system users.'.","Assess whether the participant can demonstrate 'Operations Monitoring' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Computer and Information Research Scientists
+Target Capability: Operations Monitoring
+Capability Type: Transferable Skill
+Original Work Task: Maintain network hardware and software, direct network security measures, and monitor networks to ensure availability to system users.
+Work Context / DWA: Monitor the performance of computer networks.
+Skill Shadow: 0.3462
+Capability Risk: 0.2030
+Capability Criticality: 0.5865
+Capability Preservation Pressure: 0.4046
+Task Preservation Pressure: 0.6865
+AI Share: 0.2785
+Human Share: 0.7215
+AI Suitability: 0.5466
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.5167,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.517).,bb1317e3477e5aa3,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199759, Requested 1853. Please try again in 11m36.383999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-1243.01,16123,Data Warehousing Specialists,Analyzing Data or Information,Work Activity,4.A.2.a.4,"Perform system analysis, data analysis or programming, using a variety of computer languages and procedures.",Analyze data to identify trends or relationships among variables.,0.3153494641407124,31.534946414071243,0.20593522453418048,20.593522453418046,0.6530381305556616,8074,0.3583908047329853,0.7932013783864449,0.3500629255417427,1.0,3.830705,0.8285848083249877,0.6073489189147949,0.26993047906281953,0.7300695209371805,0.7300695209371805,0.26993047906281953,0.5247424616514665,1.0,Hybrid,0.6488517351969538,0.27110156935410185,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Perform system analysis, data analysis or programming, using a variety of computer languages and procedures.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Data Warehousing Specialists
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Perform system analysis, data analysis or programming, using a variety of computer languages and procedures.
+Work Context / DWA: Analyze data to identify trends or relationships among variables.
+Skill Shadow: 0.3153
+Capability Risk: 0.2059
+Capability Criticality: 0.6530
+Capability Preservation Pressure: 0.3584
+Task Preservation Pressure: 0.7932
+AI Share: 0.2699
+Human Share: 0.7301
+AI Suitability: 0.6073
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.7262,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.726).,ba79a2bb5ee25c81,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199748, Requested 1856. Please try again in 11m32.928s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+19-1029.01,16787,Bioinformatics Scientists,Processing Information,Work Activity,4.A.2.a.2,Develop data models and databases.,Develop technical or scientific databases.,0.2961607444353098,29.616074443530984,0.20519191699245679,20.519191699245678,0.6928396853664606,6174,0.3421491718668272,0.6674886741635171,0.34820588438868405,1.0,3.49335,0.7556146297253628,0.5968849062919617,0.30560288215944675,0.6943971178405532,0.6943971178405532,0.30560288215944675,0.5077148413731396,1.0,Hybrid,0.5326639506578875,0.30560288215944675,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Develop data models and databases.'.,"Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Bioinformatics Scientists
+Target Capability: Processing Information
+Capability Type: Work Activity
+Original Work Task: Develop data models and databases.
+Work Context / DWA: Develop technical or scientific databases.
+Skill Shadow: 0.2962
+Capability Risk: 0.2052
+Capability Criticality: 0.6928
+Capability Preservation Pressure: 0.3421
+Task Preservation Pressure: 0.6675
+AI Share: 0.3056
+Human Share: 0.6944
+AI Suitability: 0.5969
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.6654,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.665).,308411db1c64a83f,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199737, Requested 1818. Please try again in 11m11.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+19-2042.00,20392,"Geoscientists, Except Hydrologists and Geographers","Monitoring Processes, Materials, or Surroundings",Work Activity,4.A.1.a.2,"Inspect construction projects to analyze engineering problems, using test equipment or drilling machinery.",Monitor construction operations.,0.2749316480552044,27.493164805520443,0.2043737917325889,20.43737917325889,0.7433621890323518,1172,0.30477298610503795,0.6318370072487299,0.34745039935384925,1.0,2.9602945,0.6403142635279968,0.4789016842842102,0.26376310668869474,0.7362368933113053,0.7362368933113053,0.26376310668869474,0.4864823371450119,1.0,Hybrid,0.5006571970012438,0.26376310668869474,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Monitoring Processes, Materials, or Surroundings' using the real work context represented by the source task: 'Inspect construction projects to analyze engineering problems, using test equipment or drilling machinery.'.","Assess whether the participant can demonstrate 'Monitoring Processes, Materials, or Surroundings' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Geoscientists, Except Hydrologists and Geographers
+Target Capability: Monitoring Processes, Materials, or Surroundings
+Capability Type: Work Activity
+Original Work Task: Inspect construction projects to analyze engineering problems, using test equipment or drilling machinery.
+Work Context / DWA: Monitor construction operations.
+Skill Shadow: 0.2749
+Capability Risk: 0.2044
+Capability Criticality: 0.7434
+Capability Preservation Pressure: 0.3048
+Task Preservation Pressure: 0.6318
+AI Share: 0.2638
+Human Share: 0.7362
+AI Suitability: 0.4789
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.6743,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.674).,fd1bd9328002cfc1,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199727, Requested 1862. Please try again in 11m26.448s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-2041.01,16257,Biostatisticians,Analyzing Data or Information,Work Activity,4.A.2.a.4,Develop or implement data analysis algorithms.,Analyze data to identify trends or relationships among variables.,0.2829854913074572,28.29854913074572,0.20262498081871533,20.262498081871534,0.7160260403547261,8074,0.35228213031324057,0.6662286988807492,0.3454854479702884,1.0,4.3085415,0.9319412570108517,0.5726720690727234,0.29552369845495274,0.7044763015450473,0.7044763015450473,0.29552369845495274,0.5425319732690237,1.0,Hybrid,0.5315253525268454,0.29552369845495274,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Develop or implement data analysis algorithms.'.,"Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Biostatisticians
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Develop or implement data analysis algorithms.
+Work Context / DWA: Analyze data to identify trends or relationships among variables.
+Skill Shadow: 0.2830
+Capability Risk: 0.2026
+Capability Criticality: 0.7160
+Capability Preservation Pressure: 0.3523
+Task Preservation Pressure: 0.6662
+AI Share: 0.2955
+Human Share: 0.7045
+AI Suitability: 0.5727
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.8137,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.814).,67170056a81fb64f,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199716, Requested 1175. Please try again in 6m24.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-1299.03,16235,Document Management Specialists,Processing Information,Work Activity,4.A.2.a.2,"Analyze, interpret, or disseminate system performance data.",Analyze data to identify or resolve operational problems.,0.3202677701454212,32.02677701454212,0.20042771279446625,20.042771279446626,0.6258129336694098,6174,0.3415140594224225,0.8056148248801366,0.34542478564493245,1.0,2.8574100000000002,0.6180602570952092,0.6619937419891357,0.28757524376452587,0.7124247562354742,0.7124247562354742,0.28757524376452587,0.480131964206542,1.0,Hybrid,0.6605894538313825,0.28757524376452587,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Processing Information' using the real work context represented by the source task: 'Analyze, interpret, or disseminate system performance data.'.","Assess whether the participant can demonstrate 'Processing Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Document Management Specialists
+Target Capability: Processing Information
+Capability Type: Work Activity
+Original Work Task: Analyze, interpret, or disseminate system performance data.
+Work Context / DWA: Analyze data to identify or resolve operational problems.
+Skill Shadow: 0.3203
+Capability Risk: 0.2004
+Capability Criticality: 0.6258
+Capability Preservation Pressure: 0.3415
+Task Preservation Pressure: 0.8056
+AI Share: 0.2876
+Human Share: 0.7124
+AI Suitability: 0.6620
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.6684,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.668).,38eb22a07b716a46,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199705, Requested 1834. Please try again in 11m4.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+47-4031.00,13625,Fence Erectors,"Drafting, Laying Out, and Specifying Technical Devices, Parts, and Equipment",Work Activity,4.A.3.b.2,"Measure and lay out fence lines and mark posthole positions, following instructions, drawings, or specifications.",Measure work site dimensions.,0.2448512114641661,24.48512114641661,0.1995606069144454,19.95606069144454,0.8150280561043948,12324,0.37892337211217936,0.40814280538404946,0.3452993990272957,1.0,1.6720375,0.3616631589876254,0.5588704347610474,0.364257132130317,0.635742867869683,0.635742867869683,0.364257132130317,0.42497456485056273,1.0,Hybrid,0.31097876318118056,0.364257132130317,Capability maintenance,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Drafting, Laying Out, and Specifying Technical Devices, Parts, and Equipment' using the real work context represented by the source task: 'Measure and lay out fence lines and mark posthole positions, following instructions, drawings, or specifications.'.","Assess whether the participant can demonstrate 'Drafting, Laying Out, and Specifying Technical Devices, Parts, and Equipment' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Fence Erectors
+Target Capability: Drafting, Laying Out, and Specifying Technical Devices, Parts, and Equipment
+Capability Type: Work Activity
+Original Work Task: Measure and lay out fence lines and mark posthole positions, following instructions, drawings, or specifications.
+Work Context / DWA: Measure work site dimensions.
+Skill Shadow: 0.2449
+Capability Risk: 0.1996
+Capability Criticality: 0.8150
+Capability Preservation Pressure: 0.3789
+Task Preservation Pressure: 0.4081
+AI Share: 0.3643
+Human Share: 0.6357
+AI Suitability: 0.5589
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.4925,False,True,True,True,True,3,KEEP_BORDERLINE_SUPPORTED,Borderline semantic evidence supported by 3 additional LATTICE evidence signals.,fe3d650e8a46650e,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199694, Requested 1890. Please try again in 11m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-2099.01,17721,Bioinformatics Technicians,Analyzing Data or Information,Work Activity,4.A.2.a.4,Conduct quality analyses of data inputs and resulting analyses or predictions.,Analyze operational or research data.,0.31495485506111287,31.495485506111287,0.2002295391323617,20.02295391323617,0.6357404431613215,8074,0.35390687191746883,0.7446897994597483,0.3446943779025292,1.0,4.013039999999999,0.8680240267001788,0.5758826732635498,0.27362552207815066,0.7263744779218493,0.7263744779218493,0.27362552207815066,0.5305665615020134,1.0,Hybrid,0.603425598369552,0.27362552207815066,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Conduct quality analyses of data inputs and resulting analyses or predictions.'.,"Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Bioinformatics Technicians
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Conduct quality analyses of data inputs and resulting analyses or predictions.
+Work Context / DWA: Analyze operational or research data.
+Skill Shadow: 0.3150
+Capability Risk: 0.2002
+Capability Criticality: 0.6357
+Capability Preservation Pressure: 0.3539
+Task Preservation Pressure: 0.7447
+AI Share: 0.2736
+Human Share: 0.7264
+AI Suitability: 0.5759
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.727,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.727).,aa9d918d9153e064,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199683, Requested 1178. Please try again in 6m11.952s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+15-1231.00,19011,Computer Network Support Specialists,Working with Computers,Work Activity,4.A.3.b.1,Research hardware or software products to meet technical networking or security needs.,Conduct research to gain information about products or processes.,0.2816939000782671,28.16939000782671,0.2011720794555526,20.11720794555526,0.714151351519,7862,0.3494938208462921,0.6697204496555345,0.34402884417959934,1.0,3.371317,0.729218786162801,0.5288800001144409,0.27169424210620596,0.728305757893794,0.728305757893794,0.27169424210620596,0.5026691405901097,1.0,Hybrid,0.5346820512051891,0.2756318525851225,Capability preservation,Create a realistic synthetic apprenticeship experience that exercises the capability 'Working with Computers' using the real work context represented by the source task: 'Research hardware or software products to meet technical networking or security needs.'.,"Assess whether the participant can demonstrate 'Working with Computers' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Computer Network Support Specialists
+Target Capability: Working with Computers
+Capability Type: Work Activity
+Original Work Task: Research hardware or software products to meet technical networking or security needs.
+Work Context / DWA: Conduct research to gain information about products or processes.
+Skill Shadow: 0.2817
+Capability Risk: 0.2012
+Capability Criticality: 0.7142
+Capability Preservation Pressure: 0.3495
+Task Preservation Pressure: 0.6697
+AI Share: 0.2717
+Human Share: 0.7283
+AI Suitability: 0.5289
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.6373,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.637).,558e3c6b28a248ba,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199672, Requested 1171. Please try again in 6m4.176s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+19-2021.00,9069,Atmospheric and Space Scientists,Analyzing Data or Information,Work Activity,4.A.2.a.4,"Gather data from sources such as surface or upper air stations, satellites, weather bureaus, or radar for use in meteorological reports or forecasts.",Collect environmental data or samples.,0.2784125776870845,27.84125776870845,0.2008649254037148,20.08649254037148,0.7214649821944193,8074,0.3505121438355267,0.6261127879553839,0.34375876290354057,1.0,3.225855,0.6977552296141841,0.5485521554946899,0.2965313559795156,0.7034686440204845,0.7034686440204845,0.2965313559795156,0.49504004514010025,1.0,Hybrid,0.49555949657000203,0.2965313559795156,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Gather data from sources such as surface or upper air stations, satellites, weather bureaus, or radar for use in meteorological reports or forecasts.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Atmospheric and Space Scientists
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Gather data from sources such as surface or upper air stations, satellites, weather bureaus, or radar for use in meteorological reports or forecasts.
+Work Context / DWA: Collect environmental data or samples.
+Skill Shadow: 0.2784
+Capability Risk: 0.2009
+Capability Criticality: 0.7215
+Capability Preservation Pressure: 0.3505
+Task Preservation Pressure: 0.6261
+AI Share: 0.2965
+Human Share: 0.7035
+AI Suitability: 0.5486
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.5919,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.592).,27027178e709ac75,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199661, Requested 1875. Please try again in 11m3.552s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,
+19-2043.00,24022,Hydrologists,Analyzing Data or Information,Work Activity,4.A.2.a.4,"Prepare reports or presentations describing research results, using illustrations, maps, appendices, and other information.",Create images or other visual displays.,0.269187534036854,26.918753403685404,0.19989502328922598,19.989502328922597,0.74258647973594,8074,0.34923812818980443,0.5091172382208851,0.3430795699523828,1.0,3.1193565000000003,0.674719511852206,0.550813615322113,0.3310029966974692,0.6689970033025308,0.6689970033025308,0.3310029966974692,0.4884716020189017,1.0,Hybrid,0.394042614682545,0.3310029966974692,Capability preservation,"Create a realistic synthetic apprenticeship experience that exercises the capability 'Analyzing Data or Information' using the real work context represented by the source task: 'Prepare reports or presentations describing research results, using illustrations, maps, appendices, and other information.'.","Assess whether the participant can demonstrate 'Analyzing Data or Information' while solving the underlying work problem, making appropriate decisions, explaining reasoning where relevant, and producing an observable work outcome.","FORGE LATTICE SYNTHETIC APPRENTICESHIP
+
+Occupation: Hydrologists
+Target Capability: Analyzing Data or Information
+Capability Type: Work Activity
+Original Work Task: Prepare reports or presentations describing research results, using illustrations, maps, appendices, and other information.
+Work Context / DWA: Create images or other visual displays.
+Skill Shadow: 0.2692
+Capability Risk: 0.1999
+Capability Criticality: 0.7426
+Capability Preservation Pressure: 0.3492
+Task Preservation Pressure: 0.5091
+AI Share: 0.3310
+Human Share: 0.6690
+AI Suitability: 0.5508
+
+Generate a realistic synthetic apprenticeship task that requires the human participant to actively demonstrate the target capability.
+
+Do NOT simply ask the participant to define or describe the capability.
+
+The task should simulate a realistic work situation and produce an observable outcome that can later be assessed using a fixed rubric and, where available, objective interaction evidence.",0.5993,True,False,True,True,True,3,KEEP_STRONG,Strong semantic task-capability evidence (similarity=0.599).,aabb425c335003b1,Groq,openai/gpt-oss-20b,error,3,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-20b` in organization `org_01m2spex0ke2tvtbh96h2dvxsz` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199651, Requested 1857. Please try again in 10m51.456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",NOT_CHECKED,not_generated,,,,,,[],{},,

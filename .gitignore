@@ -1,0 +1,56 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+secrets/
+credentials/
+**/*service-account*.json
+
+# Python environments and caches
+.venv/
+.venv312/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node dependencies and build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Local backups and restoration copies
+*.bak
+*.backup
+*.tmp
+frontend_src_pre_restore_20261105/
+FORGE_PRE_RESTORE_BACKUP_20261105/
+FORGE_HACKATHON_QUARANTINE/
+
+# Local IDE and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+# Generated video intermediate files
+**/partial_movie_files/
+
+# Large generated datasets (kept locally)
+datasets/esco/knowledge_base/esco_occupation_skill_knowledge_base.csv
+datasets/job_postings/greenhouse/forge_greenhouse_clean.csv
+datasets/job_postings/greenhouse/*.parquet
+datasets/job_postings/knowledge_base/forge_job_market.csv
+datasets/job_postings/knowledge_base/forge_job_market.parquet
+datasets/onet/knowledge_base/forge_workfold.csv
+datasets/onet/knowledge_base/forge_worktrace.csv
