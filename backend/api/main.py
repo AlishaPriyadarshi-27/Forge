@@ -50,19 +50,19 @@ from fastapi.staticfiles import StaticFiles
 
 
 
-from backend.api.engines.worktrace_engine import WorkTraceEngine
+from backend.api.engines.worktrace_engine import worktrace_engine
 
 
 
-from backend.api.engines.skill_shadow_engine import SkillShadowEngine
+from backend.api.engines.skill_shadow_engine import skill_shadow_engine
 
 
 
-from backend.api.engines.workfold_engine import WorkFoldEngine
+from backend.api.engines.workfold_engine import workfold_engine
 
 
 
-from backend.api.engines.lattice_engine import LatticeEngine
+from backend.api.engines.lattice_engine import lattice_engine
 
 
 
@@ -553,253 +553,25 @@ app.add_middleware(
 
 # ENGINE INITIALIZATION
 
-
-
-# ============================================================
-
-
-
-
-
-
+# Each engine module owns one shared instance. Import those instances instead
+# of constructing a second copy here; this avoids loading every Parquet
+# dataset twice during application startup.
 
 print("\n" + "=" * 75)
-
-
-
 print("FORGE — FUTURE WORKFORCE INTELLIGENCE ENGINE")
-
-
-
 print("=" * 75)
-
-
-
-
-
-
-
-print("\n[BOOT] Loading FORGE intelligence layers...\n")
-
-
-
-
-
-
-
-
-
-
-
-# ------------------------------------------------------------
-
-
-
-# WORKTRACE
-
-
-
-# ------------------------------------------------------------
-
-
-
-
-
-
-
-try:
-
-
-
-    worktrace_engine = WorkTraceEngine()
-
-
-
-    print("[OK] WORKTRACE loaded")
-
-
-
-
-
-
-
-except Exception as exc:
-
-
-
-    worktrace_engine = None
-
-
-
-    print(f"[ERROR] WORKTRACE failed: {exc}")
-
-
-
-
-
-
-
-
-
-
-
-# ------------------------------------------------------------
-
-
-
-# SKILL SHADOW
-
-
-
-# ------------------------------------------------------------
-
-
-
-
-
-
-
-try:
-
-
-
-    skill_shadow_engine = SkillShadowEngine()
-
-
-
-    print("[OK] SKILL SHADOW loaded")
-
-
-
-
-
-
-
-except Exception as exc:
-
-
-
-    skill_shadow_engine = None
-
-
-
-    print(f"[ERROR] SKILL SHADOW failed: {exc}")
-
-
-
-
-
-
-
-
-
-
-
-# ------------------------------------------------------------
-
-
-
-# WORKFOLD
-
-
-
-# ------------------------------------------------------------
-
-
-
-
-
-
-
-try:
-
-
-
-    workfold_engine = WorkFoldEngine()
-
-
-
-    print("[OK] WORKFOLD loaded")
-
-
-
-
-
-
-
-except Exception as exc:
-
-
-
-    workfold_engine = None
-
-
-
-    print(f"[ERROR] WORKFOLD failed: {exc}")
-
-
-
-
-
-
-
-
-
-
-
-# ------------------------------------------------------------
-
-
-
-# LATTICE
-
-
-
-# ------------------------------------------------------------
-
-
-
-
-
-
-
-try:
-
-
-
-    lattice_engine = LatticeEngine()
-
-
-
-    print("[OK] LATTICE loaded")
-
-
-
-
-
-
-
-except Exception as exc:
-
-
-
-    lattice_engine = None
-
-
-
-    print(f"[ERROR] LATTICE failed: {exc}")
-
-
-
-
-
-
-
-
-
-
-
-# ============================================================
+print("\n[BOOT] Reusing shared FORGE intelligence engines...\n")
+
+for engine_name, engine in (
+    ("WORKTRACE", worktrace_engine),
+    ("SKILL SHADOW", skill_shadow_engine),
+    ("WORKFOLD", workfold_engine),
+    ("LATTICE", lattice_engine),
+):
+    if engine is None:
+        print(f"[ERROR] {engine_name} unavailable")
+    else:
+        print(f"[OK] {engine_name} loaded (shared instance)")
 
 
 
